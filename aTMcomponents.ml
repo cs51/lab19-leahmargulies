@@ -2,7 +2,7 @@ open Printf ;;
 open Scanf ;;
   
 (* Make use of an account database *)
-module DB = Database ;; 
+module DB = Databases ;; 
 
 (* Customer account identifiers *)
 type id = int ;;
